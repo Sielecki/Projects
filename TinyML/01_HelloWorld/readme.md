@@ -26,7 +26,7 @@ An introductory TinyML project demonstrating how to train a model to recognize t
 create_sine_model.ipynb
 
 23. **Load the model onto Arduino**:
-   - Export `.tflite` to `.cc` using ```bash xxd -i sine_model_quantized.tflite > sine_model_quantized.cc```
+   - Export `.tflite` to `.cc` using ```bash xxd -i sine_model_quantized_IO.tflite > sine_model_quantized_IO.cc```
    - Include the `.cc` file in your Arduino project.
    - Use the **Arduino_TensorFlowLite** library to run inference.
 
